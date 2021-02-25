@@ -9,20 +9,26 @@
     margin-top: 2px;
 }
 
+.component-storeitem {
+    display: flex;
+    align-items: top;
+}
+
+.component-storeitem button {
+    position: absolute;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: 0;
+}
+
 .pricing {
     color: green;
 }
 
-.image-left, .info-right {
-    display: inline-block;
-}
-
 .info-right {
+    position: relative;
     margin-left: 10px;
-}
-
-.image-left {
-    vertical-align: top;
 }
 
 .description {
@@ -30,5 +36,20 @@
     width: 150px;
 }
 
-.sidebar-content {
+.component-filter .dollar {
+    position: absolute;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.dollar {
+    text-align: left;
+    width: 70px;
+    padding: 5px;
+}
+
+.input-container input {
+    text-align: center;
 }
